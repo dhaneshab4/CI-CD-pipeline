@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cloudnativemonitoringapplication:
+    image: cloudnativemonitoringapplication
+    build:
+      context: .
+      dockerfile: ./Dockerfile
